@@ -1,0 +1,5 @@
+node_modules/
+*.map
+*.ai
+*.txt
+passwords.txt

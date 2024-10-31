@@ -1,0 +1,44 @@
+// mixins
+@mixin texts($color,$size,$weight){
+    font-family: $mainFont;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+@mixin border($style,$color,$width,$radius){
+    border: $style $color $width $radius;
+    padding: 2px;
+}
+
+// condicionals
+@mixin align($font,$padding,$align){
+    font-family: $font;
+    padding: $padding;
+    @if $align == left{text-align: left;}
+    @if $align == right{text-align: right;}
+    @if $align == center{text-align: center;}
+}
+
+.text-algin{
+    @include align(verdana,0.5em,left )
+}
+.text-left{
+    @include align(arial,1em,left)
+}
+
+@mixin btns($color, $borde,$enable){
+    background-color: $color;
+    border-style:$borde;
+    @if $enable == true{color:red};
+    @if $enable == false{color: gray;}
+}
+
+.btn-enable{
+    @include btns(orange,solid,true )
+}
+.btn-disable{
+    @include btns(gray,solid,false)
+}

@@ -1,0 +1,69 @@
+// vars
+// colors
+$mainColor:#0a9d0a;
+$secondaryColor:rgb(88, 85, 85);
+$keyColor:rgb(42, 42, 175);
+$white:rgb(242, 239, 239);
+$black:rgb(20, 20, 20);
+
+// map
+$gadrients:(
+    one:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%),
+    two:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%),
+    three:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%),
+    four:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+);
+
+$bgs:(
+    1:url(../img/cv--blog-1.jpg),
+    2:url(../img/cv--blog-2.jpg),
+    3:url(../img/cv--blog-3.jpg)
+);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+$mainFont: "Nunito Sans", sans-serif;
+$secondaryFont:verdana;
+$thirdFont:arial;
+
+body{
+    background-image: url(../img/cv--header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+p,
+span,
+li,
+a{
+    font-family: $secondaryFont;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: $mainFont;
+}
+
+// btns
+.btn-main{
+    max-width: 300px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $black;
+    border-radius: 3px;
+    border: solid 1px $secondaryColor;
+    text-decoration: none;
+    &:hover{
+        background-color: $black;
+        color: white;
+    }
+}
+
+.btn-green{
+    @extend .btn-main;
+    background-color: $mainColor;
+}

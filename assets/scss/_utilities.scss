@@ -1,0 +1,28 @@
+// clases de textos
+.text-main{
+    @include texts(#000000,1.2em,400);
+}
+.text-dark{
+    @include texts(rgb(53, 53, 53),1em,500 )
+}
+.text-green{
+    @include texts($mainColor,1.1em,600);
+}
+// clases para bordes
+.border-radius-one{
+    @include border(dotted,pink,2px,10px);
+    box-shadow: 0px 1px 16px 0px rgba(0,0,0,0.45);
+}
+.border-top-green{
+   border-top: $mainColor solid 5px;
+}
+// clases para gradients
+.box-gradient{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-image: map-get($map: $gadrients, $key: two)
+}
+.sectionMews{
+    background-image: map-get($map: $bgs, $key: 3);
+}
