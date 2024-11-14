@@ -1,8 +1,8 @@
-# CV Online - Portfolio
+# CV Online - Portfolio 🪄
 
 Este es un proyecto de Curriculum Vitae online para mostrar mi portfolio profesional de forma interactiva y responsive. Fue desarrollado con **HTML5**, **Bootstrap 5**, y **SASS** para ofrecer una experiencia de usuario fluida y atractiva.
 
-## Descripción
+## Descripción 🚀
 
 El CV online es totalmente **responsive**, adaptándose a diferentes dispositivos y resoluciones de pantalla. A través de este sitio, los visitantes pueden explorar mi trabajo, habilidades y experiencia de manera visualmente atractiva y organizada.
 
@@ -11,11 +11,11 @@ El CV online es totalmente **responsive**, adaptándose a diferentes dispositivo
 - **Git** fue usado para el control de versiones.
 - El proyecto fue desarrollado en **Visual Studio Code**.
 
-## Acceso al Proyecto
+## Acceso al Proyecto 🛸
 
 Puedes acceder al proyecto en línea a través del siguiente enlace: [CV Online - Deploy](https://laurane2023.github.io/clase31-10/)
 
-## Clonar el Repositorio
+## Clonar el Repositorio 🚙
 
 Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue estos pasos:
 
@@ -34,7 +34,7 @@ Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue estos pasos:
      npm run sass:watch
 
 
-## Herramientas Utilizadas
+## Herramientas Utilizadas ✈️
 -Lenguajes y Frameworks: HTML5, Bootstrap 5, SASS
 -Control de Versiones: Git
 -Editor: Visual Studio Code
