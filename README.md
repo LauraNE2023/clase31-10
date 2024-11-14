@@ -35,8 +35,8 @@ Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue estos pasos:
 
 
 ## Herramientas Utilizadas ✈️
--**Lenguajes y Frameworks: HTML5, Bootstrap 5, SASS
--Control de Versiones: Git
--Editor: Visual Studio Code**
+- **Lenguajes y Frameworks**: HTML5, Bootstrap 5, SASS
+- **Control de Versiones**: Git
+- **Editor**: Visual Studio Code
 
    
